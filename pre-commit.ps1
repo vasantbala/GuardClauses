@@ -8,11 +8,11 @@
 # .\pre-commit -a
 
 Write-Host "Formatting code"
-#dotnet format
+dotnet format
 Write-Host "Done formatting code"
 Write-Host "Running tests"
 
-#dotnet test
+dotnet test
 
 Write-Host "Testing complete. Exit code: $LASTEXITCODE"
 
